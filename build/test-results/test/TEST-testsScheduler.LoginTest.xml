@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testsScheduler.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-23T14:05:24" hostname="localhost.localdomain" time="12.164">
+<testsuite name="testsScheduler.LoginTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-08-26T09:36:33" hostname="localhost.localdomain" time="64.366">
   <properties/>
-  <testcase name="login" classname="testsScheduler.LoginTest" time="12.164"/>
+  <testcase name="loginNegativeWithDto" classname="testsScheduler.LoginTest" time="13.05"/>
+  <testcase name="loginTest" classname="testsScheduler.LoginTest" time="21.658"/>
+  <testcase name="loginWithDto" classname="testsScheduler.LoginTest" time="21.336"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Aug 23, 2021 5:05:24 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+  <system-err><![CDATA[Aug 26, 2021 12:36:33 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+Aug 26, 2021 12:36:50 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+Aug 26, 2021 12:37:16 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

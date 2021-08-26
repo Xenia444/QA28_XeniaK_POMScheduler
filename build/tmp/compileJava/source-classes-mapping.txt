@@ -1,8 +1,17 @@
-pageScheduler/BaseScreen.java
- pageScheduler.BaseScreen
-pageScheduler/SplashScreen.java
- pageScheduler.SplashScreen
 config/ConfigScheduler.java
  config.ConfigScheduler
+pageScheduler/BaseScreen.java
+ pageScheduler.BaseScreen
+pageScheduler/HomeScreen.java
+ pageScheduler.HomeScreen
+dto/Authdto.java
+ dto.Authdto
+ dto.Authdto$AuthdtoBuilder
+pageScheduler/WizardScreen.java
+ pageScheduler.WizardScreen
+dto/AuthTest.java
+ dto.AuthTest
+pageScheduler/SplashScreen.java
+ pageScheduler.SplashScreen
 pageScheduler/LoginScreen.java
  pageScheduler.LoginScreen
