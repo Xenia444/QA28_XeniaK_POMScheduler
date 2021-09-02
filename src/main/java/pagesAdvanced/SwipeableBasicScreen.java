@@ -56,15 +56,13 @@ public class SwipeableBasicScreen extends BaseScreenADV{
 
     public void toTheLeft(MobileElement el) {
         Rectangle rect = el.getRect();
-        int xFrom = (int)(rect.getX() + rect.getWidth() * 0.9);
+        int xFrom = (int)(rect.getX() + rect.getWidth() * 0.8);
         int yFrom = rect.getY() + rect.getHeight() / 2;
-
         int xTo = rect.getX() + rect.getWidth() / 4;
-        int yTo = rect.getY() + rect.getHeight() / 2;
 
         TouchAction<?> touchAction = new TouchAction<>(driver);
         touchAction.longPress(PointOption.point(xFrom, yFrom))
-                .moveTo(PointOption.point(xTo,yTo))
+                .moveTo(PointOption.point(xTo, yFrom))
                 .release()
                 .perform();
 
@@ -78,14 +76,11 @@ public class SwipeableBasicScreen extends BaseScreenADV{
         Rectangle rect = el.getRect();
         int xFrom = rect.getX() + rect.getWidth() / 4;
         int yFrom = rect.getY() + rect.getHeight() / 2;
-
         int xTo = (int) (rect.getX() + rect.getWidth() * 0.8);
-        int yTo = rect.getY() + rect.getHeight() / 2;
-
 
         TouchAction<?> touchAction = new TouchAction<>(driver);
         touchAction.longPress(PointOption.point(xFrom, yFrom))
-                .moveTo(PointOption.point(xTo,yTo))
+                .moveTo(PointOption.point(xTo, yFrom))
                 .release()
                 .perform();
 

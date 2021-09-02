@@ -28,13 +28,27 @@ public class TestStart extends ConfigAdvanced {
 
 
     @Test
-    public void swipeTest()  {
+    public void swipeTestPinItem()  {
         new DragScreen(driver)
                 .selectSwipe()
                 .selectSwipeBasic()
-                .pinAndUnpinItem(5)
-                .removeItem(7)
                 .pinItem(0);
+    }
+
+    @Test
+    public void swipeTestPinUnpin()  {
+        new DragScreen(driver)
+                .selectSwipe()
+                .selectSwipeBasic()
+                .pinAndUnpinItem(5);
+    }
+
+    @Test
+    public void swipeTestRemove()  {
+        new DragScreen(driver)
+                .selectSwipe()
+                .selectSwipeBasic()
+                .removeItem(7);
 
     }
 //************ additional test ***********
