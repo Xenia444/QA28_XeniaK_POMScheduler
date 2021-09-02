@@ -89,44 +89,57 @@ public class SwipeableBasicScreen extends BaseScreenADV{
     }
 
 //************* additional method ***************
-    public SwipeableBasicScreen pinItemDragDown(int i) {
+    public SwipeableBasicScreen swipeAndDragDown(int i, int method) {
         logger.info("Method 'pinItemDragDown' starts");
 
         int difference = i - 8;
+        int index = 0;
+        MobileElement element = list.get(0);
+
         if (difference < 0) {
-            dragDown(0);
-            MobileElement element = list.get(i + 1);
-            toTheLeft(element);
+            index = i + 1;
+            element = list.get(index);
         }
         if (difference >= 0 && difference < 8) {
             dragDown(1);
-            MobileElement element = list.get(difference + 1);
-            toTheLeft(element);
+            index = difference + 1;
+            element = list.get(index);
         }
         if (difference >= 8 && difference < 16) {
             dragDown(2);
-            MobileElement element = list.get((difference - 8) + 1);
-            toTheLeft(element);
+            index = (difference - 8) + 1;
+            element = list.get(index);
         }
         if (difference >= 16 && difference < 24) {
             dragDown(3);
-            MobileElement element = list.get((difference - 16) + 1);
-            toTheLeft(element);
+            index = (difference - 16) + 1;
+            element = list.get(index);
         }
         if (difference >= 24 && difference < 32) {
             dragDown(4);
-            MobileElement element = list.get((difference - 24) + 1);
-            toTheLeft(element);
+            index = (difference - 24) + 1;
+            element = list.get(index);
         }
         if (difference >= 32 && difference < 40) {
             dragDown(5);
-            MobileElement element = list.get((difference - 32) + 1);
-            toTheLeft(element);
+            index = (difference - 32) + 1;
+            element = list.get(index);
         }
         if (difference >= 40) {
             dragDown(6);
-            MobileElement element = list.get((difference - 36) + 1);
-            toTheLeft(element);
+            index = (difference - 36) + 1;
+            element = list.get(index);
+        }
+        switch (method) {
+            case 1:
+                toTheLeft(element);
+                break;
+            case 2:
+                toTheRight(element);
+                break;
+            case 3:
+                pinAndUnpinItem(element, index);
+                break;
         }
         logger.info("Method 'pinItemDragDown' is done");
         return this;
@@ -149,6 +162,17 @@ public class SwipeableBasicScreen extends BaseScreenADV{
         }
 
         logger.info("Drag down is done");
+    }
+
+    public SwipeableBasicScreen pinAndUnpinItem(MobileElement el, int i) {
+        logger.info("Method 'pinAndUnpinItem' starts");
+        toTheLeft(el);
+
+        String xpathItemPinned = "//*[@resource-id='com.h6ah4i.android.example.advrecyclerview:id/recycler_view']//*[@class='android.widget.FrameLayout'][" + i +"]";
+        MobileElement element = driver.findElement(By.xpath(xpathItemPinned));
+        toTheRight(element);
+        logger.info("Method 'pinAndUnpinItem' is done");
+        return this;
     }
 
 }

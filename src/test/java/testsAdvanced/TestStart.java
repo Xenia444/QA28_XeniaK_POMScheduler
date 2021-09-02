@@ -57,6 +57,10 @@ public class TestStart extends ConfigAdvanced {
         new DragScreen(driver)
                 .selectSwipe()
                 .selectSwipeBasic()
-                .pinItemDragDown(48);
+                .swipeAndDragDown(6, 3);
     }
+    //Method 1: toTheLeft
+    //Method 2: toTheRight
+    //Method 3: pinAndUnpinItem
+
 }

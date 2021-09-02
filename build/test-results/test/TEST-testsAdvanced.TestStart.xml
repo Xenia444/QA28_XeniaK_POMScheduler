@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testsAdvanced.TestStart" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-02T12:11:00" hostname="localhost.localdomain" time="21.372">
+<testsuite name="testsAdvanced.TestStart" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-02T12:59:41" hostname="localhost.localdomain" time="8.247">
   <properties/>
-  <testcase name="swipeDragDownTest" classname="testsAdvanced.TestStart" time="21.372"/>
-  <system-out><![CDATA[15:11:00 INFO  config.ConfigAdvanced - Start method: swipeDragDownTest
-15:11:01 INFO  pagesAdvanced.SwipeableBasicScreen - selectSwipe method is done
-15:11:02 INFO  pagesAdvanced.SwipeableBasicScreen - selectSwipeBasic method is done
-15:11:02 INFO  pagesAdvanced.SwipeableBasicScreen - Method 'pinItemDragDown' starts
-15:11:19 INFO  pagesAdvanced.SwipeableBasicScreen - Drag down is done
-15:11:22 INFO  pagesAdvanced.SwipeableBasicScreen - Swipe to the left is done
-15:11:22 INFO  pagesAdvanced.SwipeableBasicScreen - Method 'pinItemDragDown' is done
-15:11:22 INFO  config.ConfigAdvanced - End of method: swipeDragDownTest
-15:11:22 INFO  config.ConfigAdvanced - ==================================================================
+  <testcase name="swipeDragDownTest" classname="testsAdvanced.TestStart" time="8.247"/>
+  <system-out><![CDATA[15:59:41 INFO  config.ConfigAdvanced - Start method: swipeDragDownTest
+15:59:42 INFO  pagesAdvanced.SwipeableBasicScreen - selectSwipe method is done
+15:59:43 INFO  pagesAdvanced.SwipeableBasicScreen - selectSwipeBasic method is done
+15:59:43 INFO  pagesAdvanced.SwipeableBasicScreen - Method 'pinItemDragDown' starts
+15:59:44 INFO  pagesAdvanced.SwipeableBasicScreen - Method 'pinAndUnpinItem' starts
+15:59:46 INFO  pagesAdvanced.SwipeableBasicScreen - Swipe to the left is done
+15:59:49 INFO  pagesAdvanced.SwipeableBasicScreen - Swipe to the right is done
+15:59:49 INFO  pagesAdvanced.SwipeableBasicScreen - Method 'pinAndUnpinItem' is done
+15:59:49 INFO  pagesAdvanced.SwipeableBasicScreen - Method 'pinItemDragDown' is done
+15:59:49 INFO  config.ConfigAdvanced - End of method: swipeDragDownTest
+15:59:49 INFO  config.ConfigAdvanced - ==================================================================
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
