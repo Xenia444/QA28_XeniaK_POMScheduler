@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="login" verbose="1" >
+
+    <test name="Login">
+        <classes>
+            <class name="testsScheduler.LoginWithAfterMethod"/>
+            <class name="testsScheduler.LoginNegWithAfterMethod"/>
+            <class name="testsScheduler.LoginDataProvider"/>
+        </classes>
+    </test>
+</suite>

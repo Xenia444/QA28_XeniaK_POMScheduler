@@ -1,6 +1,7 @@
 .gradle
 #/build/
 .idea
+/logs/
 *.log
 *.png
 .properties

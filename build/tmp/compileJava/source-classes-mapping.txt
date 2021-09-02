@@ -1,17 +1,38 @@
+dto/EventDto.java
+ dto.EventDto
+ dto.EventDto$EventDtoBuilder
+pagesScheduler/BaseScreen.java
+ pagesScheduler.BaseScreen
+pagesScheduler/HomeScreen.java
+ pagesScheduler.HomeScreen
+pagesScheduler/EditCreateEventScreen.java
+ pagesScheduler.EditCreateEventScreen
 config/ConfigScheduler.java
  config.ConfigScheduler
-pageScheduler/BaseScreen.java
- pageScheduler.BaseScreen
-pageScheduler/HomeScreen.java
- pageScheduler.HomeScreen
-dto/Authdto.java
- dto.Authdto
- dto.Authdto$AuthdtoBuilder
-pageScheduler/WizardScreen.java
- pageScheduler.WizardScreen
+config/MyListener.java
+ config.MyListener
+dto/AuthDto.java
+ dto.AuthDto
+ dto.AuthDto$AuthDtoBuilder
+pagesScheduler/WizardScreen.java
+ pagesScheduler.WizardScreen
+config/ConfigAdvanced.java
+ config.ConfigAdvanced
+pagesAdvanced/DraggableBasicScreen.java
+ pagesAdvanced.DraggableBasicScreen
+pagesScheduler/SplashScreen.java
+ pagesScheduler.SplashScreen
 dto/AuthTest.java
  dto.AuthTest
-pageScheduler/SplashScreen.java
- pageScheduler.SplashScreen
-pageScheduler/LoginScreen.java
- pageScheduler.LoginScreen
+config/MyDataProvider.java
+ config.MyDataProvider
+pagesScheduler/LoginScreen.java
+ pagesScheduler.LoginScreen
+pagesAdvanced/BaseScreenADV.java
+ pagesAdvanced.BaseScreenADV
+pagesAdvanced/SwipeableBasicScreen.java
+ pagesAdvanced.SwipeableBasicScreen
+pagesAdvanced/DragScreen.java
+ pagesAdvanced.DragScreen
+pagesAdvanced/SwipeScreen.java
+ pagesAdvanced.SwipeScreen

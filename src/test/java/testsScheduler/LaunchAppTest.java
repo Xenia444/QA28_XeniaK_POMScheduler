@@ -3,7 +3,7 @@ package testsScheduler;
 import config.ConfigScheduler;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pageScheduler.SplashScreen;
+import pagesScheduler.SplashScreen;
 
 public class LaunchAppTest extends ConfigScheduler {
 
@@ -13,8 +13,8 @@ public class LaunchAppTest extends ConfigScheduler {
         Assert.assertEquals(version,"0.0.3");
     }
 
-    @Test
-    public void logoIsPresent() {
-        Assert.assertTrue(new SplashScreen(driver).viewLogo.isDisplayed());
-    }
+//    @Test
+//    public void logoIsPresent() {
+//        Assert.assertTrue(new SplashScreen(driver).viewLogo.isDisplayed());
+//    }
 }

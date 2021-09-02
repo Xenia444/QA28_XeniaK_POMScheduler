@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testsScheduler.LoginWithAfterMethod" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-08-30T13:33:13" hostname="localhost.localdomain" time="39.072">
+  <properties/>
+  <testcase name="loginTest" classname="testsScheduler.LoginWithAfterMethod" time="21.485"/>
+  <testcase name="loginWithDto" classname="testsScheduler.LoginWithAfterMethod" time="16.48"/>
+  <system-out><![CDATA[16:33:13 INFO  config.ConfigScheduler - Start method: loginTest
+16:33:13 INFO  config.ConfigScheduler - Test Start with Data -->[]
+16:33:34 INFO  config.ConfigScheduler - Test passed
+16:33:35 INFO  config.ConfigScheduler - End of method: loginTest
+16:33:35 INFO  config.ConfigScheduler - ==================================================================
+16:33:35 INFO  config.ConfigScheduler - Start method: loginWithDto
+16:33:35 INFO  config.ConfigScheduler - Test Start with Data -->[]
+16:33:52 INFO  config.ConfigScheduler - Test passed
+16:33:53 INFO  config.ConfigScheduler - End of method: loginWithDto
+16:33:53 INFO  config.ConfigScheduler - ==================================================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

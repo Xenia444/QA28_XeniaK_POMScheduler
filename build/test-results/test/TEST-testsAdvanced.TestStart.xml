@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testsAdvanced.TestStart" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-02T11:44:38" hostname="localhost.localdomain" time="21.905">
+  <properties/>
+  <testcase name="swipeDragDownTest" classname="testsAdvanced.TestStart" time="21.905"/>
+  <system-out><![CDATA[14:44:38 INFO  config.ConfigAdvanced - Start method: swipeDragDownTest
+14:44:40 INFO  pagesAdvanced.SwipeableBasicScreen - selectSwipe method is done
+14:44:40 INFO  pagesAdvanced.SwipeableBasicScreen - selectSwipeBasic method is done
+14:44:40 INFO  pagesAdvanced.SwipeableBasicScreen - Method 'pinItemDragDown' starts
+14:44:57 INFO  pagesAdvanced.SwipeableBasicScreen - Drag down is done
+14:45:00 INFO  pagesAdvanced.SwipeableBasicScreen - Swipe to the left is done
+14:45:00 INFO  pagesAdvanced.SwipeableBasicScreen - Method 'pinItemDragDown' is done
+14:45:00 INFO  config.ConfigAdvanced - End of method: swipeDragDownTest
+14:45:00 INFO  config.ConfigAdvanced - ==================================================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
